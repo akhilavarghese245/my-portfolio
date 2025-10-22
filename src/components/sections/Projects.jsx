@@ -17,8 +17,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> HRTray</h3>
               <p className="text-gray-400 mb-4">
-                Website helps screen candidates based on their skills and resumes with respect to JD.
-              </p>
+              An AI-powered recruitment platform featuring job description management, resume screening, and candidate insights to help HRs streamline their hiring process.              </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Python", "Django", "DRF", "Celery", "MySQL", "MongoDB", "Docker"].map((tech, key) => (
                   <span
@@ -87,9 +86,9 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">Patient 360</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, product inventory, shopping cart.
+              An app which helps in hospital manaement system. Tracks athe status of patients and updates the bystanders
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Python", "Django", "Rest API", "React.js", "MySQL"].map(
@@ -119,21 +118,19 @@ export const Projects = () => {
               </div>
             </div>
 
-            {/* <div
+            <div
               className="
               glass p-6 rounded-xl border border-white/10 
               hover:-translate-y-1 hover:border-blue-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
             "
-            > */}
-              {/* <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+            >
+              <h3 className="text-xl font-bold mb-2">Generative AI Document Query System</h3>
               <p className="text-gray-400 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
-              </p>
+              Built an AI-powered application that allows users to upload PDF, DOC, or TXT files and ask questions through prompts to receive context-based answers.              </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["Python", "Fast API", "RAG", "Gen AI", "LLM", "OpenAI API"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -156,7 +153,7 @@ export const Projects = () => {
                   View Project →
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </RevealOnScroll>
