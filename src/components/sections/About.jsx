@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-  const backendSkills = ["Python", "Django", "Flask", "Rest API", "Fast API", "Celery"];
+  const backendSkills = ["Python", "Django", "Flask", "Rest API", "Fast API", "Celery", "AI", "ML", "Gen AI", "RAG"];
 
   const frontendSkills = [
     "HTML",
@@ -40,9 +40,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
-            </p>
+            Passionate developer with expertise in building scalable web applications and creating innovative solutions. Currently exploring the fields of Artificial Intelligence (AI), Machine Learning (ML), and Generative AI to enhance problem-solving capabilities and build intelligent, data-driven applications.            </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
